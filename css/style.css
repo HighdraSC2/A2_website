@@ -1,0 +1,154 @@
+.background{
+	background-image: url(../img/gebouw.jpg); 
+	width: 300px;
+	height: 100px;
+	text-align: center;
+}
+
+.background a{
+	background-color:beige;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.muted{
+	color: white;
+}
+
+/* START eigen code */
+
+header{
+	background-color: #ff6666;
+	padding: 5px;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+footer{
+	background-color: #ff6666;
+	padding: 10px;
+}
+
+.text{
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.logo{
+	width: 150px;
+}
+.navlinks{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	background: black;
+	border: 1px solid black;
+	margin: 0;
+}
+.links{
+	text-decoration: none;
+	color: #ff6666;
+	font-size: 18px;
+}
+
+form{
+	background-color: #ff6666;
+}
+
+button{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	background: black;
+	border: 1px solid black;
+}
+
+.button{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	background: #ff6666;
+	border: 1px solid white;
+}
+
+.dropbtn {
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	background: black;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff6666;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
+/* EINDE eigen code */
+
+.form-group{
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.form-group label{
+	display: inline-block;
+	width: 150px;
+	cursor: pointer;
+	vertical-align: top;
+	color: white;
+}
+
+.form-group input[type=text], .form-group textarea{
+	width: 300px;
+}
+
+.form-group input[type=submit]{
+	padding: 10px;
+	cursor: pointer;
+}
